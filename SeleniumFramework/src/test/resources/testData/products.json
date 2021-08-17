@@ -1,0 +1,23 @@
+{
+  "dataSet": [
+    {
+      "product" : "HP LP3065",
+      "dollarPrice": 122.00,
+      "poundsPrice" : 92.03,
+      "euroPrice": 105.01
+    },
+
+    {
+      "product" : "MacBook",
+      "dollarPrice": 602.00,
+      "poundsPrice" : 454.10,
+      "euroPrice": 518.16
+    },
+    {
+      "product": "iPhone",
+      "dollarPrice":123.20,
+      "poundsPrice": 92.93,
+      "euroPrice": 106.04
+    }
+  ]
+}
