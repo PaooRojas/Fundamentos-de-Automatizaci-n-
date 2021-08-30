@@ -3,8 +3,8 @@ package PageObjects;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class LoginPage extends BasePage {
 
+public class LoginPage extends BasePage {
 
         //Elementos
         private By emailInputLocator = By.name("email");
@@ -13,6 +13,8 @@ public class LoginPage extends BasePage {
 
         public LoginPage(WebDriver _driver) {
                 super(_driver);
+                this.driver = _driver;
+
         }
         public void EnterEmail(String email) {
                 this.driver.findElement(emailInputLocator).sendKeys(email);

@@ -55,7 +55,6 @@ public class AddToCartTests extends BaseClass {
 
 
 
-
         headerPage().clickOnCartButton();
         shoppingCartPage().checkOutButton();
        // Assert.assertTrue(shoppingCartPage().getProductNotAvailableMessage(), "Products marked with *** are not available in the desired quantity or not in stock!");
